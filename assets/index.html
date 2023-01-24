@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/estiloPrincipal.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <section>
-        <h1>Faça seu login</h1>
+        <h1>Faça login para acessar sua conta</h1>
+        <form method="post">
+            <label for="IdEmail"><i class="material-symbols-outlined">person</i></label>
+            <input type="email" name="email" id="IdEmail" placeholder="Seu email">
+            <label for="IdSenha"><i class="material-symbols-outlined">lock</i></label>
+            <input type="password" name="senha" id="IdSenha" placeholder="Senha">
+            <input type="submit" value="Login">
+        </form>
     </section>
 </body>
 </html>
