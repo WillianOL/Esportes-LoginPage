@@ -12,12 +12,24 @@
     <section>
         <h1>Faça login para acessar sua conta</h1>
         <form method="post">
-            <label for="IdEmail"><i class="material-symbols-outlined">person</i></label>
-            <input type="email" name="email" id="IdEmail" placeholder="Seu email">
-            <label for="IdSenha"><i class="material-symbols-outlined">lock</i></label>
-            <input type="password" name="senha" id="IdSenha" placeholder="Senha">
-            <input type="submit" value="Login">
+            <div class="loginDados">
+                <label for="IdEmail"><i class="material-symbols-outlined">person</i></label>
+                <input type="email" name="email" id="IdEmail" placeholder="Seu email" required>
+            </div>
+            <div class="loginDados">
+                <label for="IdSenha"><i class="material-symbols-outlined">lock</i></label>
+                <input type="password" name="senha" id="IdSenha" placeholder="Senha" required>
+            </div>
+            <input type="submit" value="Login" class="BtnLogin">
         </form>
+        <div class="redesConetiner">
+            <div class="google">
+                
+            </div>
+            <div class="facebook">
+
+            </div>
+        </div>
     </section>
 </body>
 </html>
