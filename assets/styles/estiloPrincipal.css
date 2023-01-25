@@ -25,6 +25,7 @@ body, html{
     align-items: flex-start;
     padding: 60px 20px 60px 40px;
     flex: 1;
+    
 }
 
 h1{
@@ -76,3 +77,13 @@ span{
     border: none;
     border-bottom: 1px solid black;
 }
+
+.imgConteiner{
+    flex: 1.2;
+    background-image: url(../../imagens/ImgBanner.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px 0px 0px 100px;
+    /*box-shadow: -2px 2px    20px var(--cor01);*/
+}
+
