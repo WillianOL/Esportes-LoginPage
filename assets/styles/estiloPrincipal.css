@@ -2,8 +2,8 @@
 :root{
     --fontPrincipal: 'Montserrat', sans-serif;
     --cor01: #BA2BBD;
-    --cor02: #003750;
-    --cor03: #F2E205;
+    --cor02: #00588E;
+    --cor03: #FFEE05;
 }
 
 *{
@@ -33,6 +33,7 @@ h1{
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    
 }
 
 h1::before{
@@ -45,8 +46,33 @@ h1::before{
 }
 
 p{
-    font-size: 1.25em;
+    font-size: 1.35em;
     font-weight: 500;
-    color: var(--cor02);
+    margin-bottom: 50px;
+    position: relative;
 }
 
+span{
+    color: var(--cor01)
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.loginDados{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.loginDados input{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+}
