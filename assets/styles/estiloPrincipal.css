@@ -19,6 +19,7 @@ body, html{
     height: 100vh;
 }
 
+/* Conteiner do login */
 .loginConteiner{
     display: flex;
     flex-direction: column;
@@ -28,12 +29,14 @@ body, html{
     
 }
 
+/* Nome Login e frase abaixo */
 h1{
     position: relative;
     font-size: 2em;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    text-transform: uppercase;
     
 }
 
@@ -54,12 +57,14 @@ p{
 }
 
 span{
-    color: var(--cor01)
+    color: var(--cor01);
 }
 
+/* Conteiner e barra de email, senha e icones. */
 .formulario{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px 20px;
     width: 100%;
     gap: 20px;
@@ -69,13 +74,36 @@ span{
     display: flex;
     width: 100%;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .loginDados input{
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 20px;
     border: none;
     border-bottom: 1px solid black;
+}
+
+.loginDados i{
+    font-size: 1.7em;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.BtnLogin{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--cor01), #831985);
+    width: 50%;
+    font-size: 1em;
+    color: white;
+    transition: all .3s ease;
+}
+
+.BtnLogin:hover{
+    letter-spacing: 2px;
 }
 
 .imgConteiner{
@@ -83,7 +111,7 @@ span{
     background-image: url(../../imagens/ImgBanner.jpg);
     background-size: cover;
     background-position: center center;
-    border-radius: 20px 0px 0px 100px;
+    border-radius: 0px 0px 0px 150px;
     /*box-shadow: -2px 2px    20px var(--cor01);*/
 }
 
