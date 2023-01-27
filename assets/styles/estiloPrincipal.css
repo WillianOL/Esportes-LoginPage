@@ -81,13 +81,26 @@ span{
     width: 100%;
     padding: 10px 20px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.671)
+}
+
+.loginDados input:hover{
+    border-color: var(--cor01);
+}
+
+.loginDados:hover label{
+    transform: translate(0px, -2px);
+    color: var(--cor01);
 }
 
 .loginDados i{
-    font-size: 1.7em;
-    margin-right: 10px;
+    font-size: 1.8em;
     font-weight: 400;
+}
+
+.loginDados label{
+    padding: 0px 10px;
+    transition: all .2s ease;
 }
 
 .BtnLogin{
