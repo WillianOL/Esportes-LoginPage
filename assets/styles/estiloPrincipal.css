@@ -2,6 +2,8 @@
 :root{
     --fontPrincipal: 'Montserrat', sans-serif;
     --cor01: #BA2BBD;
+    --corBtnHover01: #e131e4;
+    --corBtnHover02: #a424a7;
     --cor02: #00588E;
     --cor03: #FFEE05;
 }
@@ -116,7 +118,28 @@ span{
 }
 
 .BtnLogin:hover{
+    background: linear-gradient(90deg, var(--corBtnHover01), var(--corBtnHover02));
     letter-spacing: 2px;
+    transform: translate(0px, -2px);
+}
+
+/* Botões de acesso alternativo (google e facebook) */
+.redesConetiner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+    gap: 10px;
+}
+
+.google{
+    display: flex;
+    background-color: red;
+    width: 250px;
+}
+
+.google img{
+    width: 40px;
 }
 
 .imgConteiner{
