@@ -123,23 +123,32 @@ span{
     transform: translate(0px, -2px);
 }
 
+/* mudar senha e criar conta */
+.conteinerAjuda{
+
+}
+
 /* Botões de acesso alternativo (google e facebook) */
 .redesConetiner{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin-top: 70px;
     gap: 10px;
 }
 
-.google{
+.btnAlternativo{
     display: flex;
     background-color: red;
-    width: 250px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-.google img{
-    width: 40px;
+.btnAlternativo img{
+    width: 35px;
 }
 
 .imgConteiner{
