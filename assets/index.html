@@ -11,34 +11,43 @@
 <body>
     <section class="loginConteiner">
         <h1>Login</h1>
-        <p>Aproveite a melhor <span>experiência gamer.</span></p>
-        <form method="post" class="formulario">
+        <p>Faça o login e aproveite os<span> nossos serviços</span></p>
+        <form method="post" class="formulario" id="form">
             <div class="loginDados">
-                <label for="IdEmail"><i class="material-symbols-outlined">person</i></label>
+                <label for="IdEmail">
+                    <i class="material-symbols-outlined">person</i>
+                </label>
                 <input type="email" name="email" id="IdEmail" placeholder="Seu email" required>
             </div>
             <div class="loginDados">
-                <label for="IdSenha"><i class="material-symbols-outlined">lock</i></label>
+                <label for="IdSenha">
+                    <i class="material-symbols-outlined">lock</i>
+                </label>
                 <input type="password" name="senha" id="IdSenha" placeholder="Senha" required>
             </div>
-            <input type="submit" value="Login" class="BtnLogin">
+            <input type="submit" value="Entrar" class="BtnLogin">
         </form>
         <nav class="conteinerAjuda">
-            <ul class="ajuda">
+            <ul>
                 <li><a href="#">Esqueceu a senha?</a></li>
                 <li>Não ten conta? <a href="#">Crie uma</a></li>
             </ul>
         </nav>
         <div class="redesConetiner">
             <div class="google btnAlternativo">
-                <img src="../svgs/instagram.svg" alt="">
+                <img src="../svgs/instagram.svg" alt="Botão de login com o google">
+                <p>Continue com Google</p>
             </div>
             <div class="facebook btnAlternativo">
-                <img src="../svgs/facebook.svg" alt="">
+                <img src="../svgs/facebook.svg" alt="Botão de login com o facebook">
+                <p>Continue com Facebook</p>
             </div>
         </div>
     </section>
     <section class="imgConteiner">
+        <img src="../imagens/imagemLateral.svg" alt="">
     </section>
+
+    <script src="erroLogin.js"></script>
 </body>
 </html>
