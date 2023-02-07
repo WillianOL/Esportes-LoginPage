@@ -82,10 +82,24 @@ span{
 }
 
 .loginDados input{
+    position: relative;
     width: 100%;
     padding: 10px 20px;
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.671);
+}
+
+.loginEmailErro{
+    position: absolute;
+    top: 275px;
+    left: 87px;
+    font-size: .9em;
+    color: red;
+    display: block;
+}
+
+.spanSenha{
+    top: 350px;
 }
 
 .loginDados input:focus{
@@ -228,17 +242,38 @@ span{
 }
 
 /* Estilos de erro */
-.loginDadosERRO input{
+.loginEmailErro input{
     border-bottom: solid 2px rgb(216, 0, 0);   
 }
 
-.loginDadosERRO input:focus{
+.loginEmailErro input:focus{
     outline: 2px solid rgb(216, 0, 0);
     border-radius: 10px;
 }
 
-.loginDadosERRO i{
+.loginEmailErro i{
     color: rgb(216, 0, 0);
+}
+
+.loginEmailErro span{
+    display: block;
+}
+
+.loginSenhaERRO input{
+    border-bottom: solid 2px rgb(216, 0, 0);   
+}
+
+.loginSenhaERRO input:focus{
+    outline: 2px solid rgb(216, 0, 0);
+    border-radius: 10px;
+}
+
+.loginSenhaERRO i{
+    color: rgb(216, 0, 0);
+}
+
+.loginSenhaERRO span{
+    display: block;
 }
 
 /* Responsivo */

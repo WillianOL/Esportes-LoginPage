@@ -1,12 +1,19 @@
 const formulario = document.getElementById('form');
 const dadosLogin = document.querySelectorAll('.loginInputs')
 const conteinerLogin = document.querySelectorAll('.loginDados')
-const regexEmail = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i;
 
 dadosLogin[0].addEventListener('input', () => {
-    if(dadosLogin[0].value === regexEmail){
-        conteinerLogin[0].classList.add('loginDadosERRO')
+    if(dadosLogin[0].value.length < 3){
+        conteinerLogin[0].classList.add('loginEmailErro')
     } else{
-        conteinerLogin[0].classList.remove('loginDadosERRO')
+        conteinerLogin[0].classList.remove('loginEmailErro')
+    }
+});
+
+dadosLogin[1].addEventListener('input', () => {
+    if(dadosLogin[1].value.length < 8){
+        conteinerLogin[1].classList.add('loginSenhaERRO')
+    } else{
+        conteinerLogin[1].classList.remove('loginSenhaERRO')
     }
 });
