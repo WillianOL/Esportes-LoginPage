@@ -85,7 +85,13 @@ span{
     width: 100%;
     padding: 10px 20px;
     border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.671)
+    border-bottom: 2px solid rgba(0, 0, 0, 0.671);
+}
+
+.loginDados input:focus{
+    outline: solid 2px var(--cor01);
+    border: none;
+    border-radius: 10px;
 }
 
 .loginDados input:hover{
@@ -112,7 +118,7 @@ span{
     border: none;
     padding: 10px;
     cursor: pointer;
-    background: linear-gradient(90deg, var(--cor01), #15608f);
+    background: linear-gradient(90deg, var(--cor01), #114f75);
     min-width: 60%;
     font-size: 1em;
     color: white;
@@ -223,7 +229,16 @@ span{
 
 /* Estilos de erro */
 .loginDadosERRO input{
-    border-color: rgb(216, 0, 0);
+    border-bottom: solid 2px rgb(216, 0, 0);   
+}
+
+.loginDadosERRO input:focus{
+    outline: 2px solid rgb(216, 0, 0);
+    border-radius: 10px;
+}
+
+.loginDadosERRO i{
+    color: rgb(216, 0, 0);
 }
 
 /* Responsivo */
