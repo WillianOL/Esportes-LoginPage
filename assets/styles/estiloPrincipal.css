@@ -89,17 +89,17 @@ span{
     border-bottom: 2px solid rgba(0, 0, 0, 0.671);
 }
 
-.loginEmailErro{
+.span{
     position: absolute;
-    top: 275px;
-    left: 87px;
+    top: 248px;
+    left: 90px;
     font-size: .9em;
     color: red;
-    display: block;
+    display: none;
 }
 
 .spanSenha{
-    top: 350px;
+    top: 325px;
 }
 
 .loginDados input:focus{
@@ -273,10 +273,21 @@ span{
 }
 
 .loginSenhaERRO span{
-    display: block;
+    display: inline-block;
 }
 
 /* Responsivo */
+
+@media (max-width: 1080px){
+    .span{
+        top: 270px;
+        left: 90px;
+    }
+    
+    .spanSenha{
+        top: 350px;
+    }
+}
 
 @media (max-width: 620px){
     .imgConteiner{
@@ -297,5 +308,25 @@ span{
 
     .redesConetiner{
         padding-right: 0px;
+    }
+
+    .span{
+        top: 250px;
+        left: 70px;
+    }
+    
+    .spanSenha{
+        top: 325px;
+    }
+}
+
+@media (max-width: 492px){
+    .span{
+        top: 275px;
+        left: 60px;
+    }
+    
+    .spanSenha{
+        top: 355px;
     }
 }
