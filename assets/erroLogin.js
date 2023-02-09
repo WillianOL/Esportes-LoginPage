@@ -1,4 +1,3 @@
-const formulario = document.getElementById('form');
 const dadosLogin = document.querySelectorAll('.loginInputs')
 const conteinerLogin = document.querySelectorAll('.loginDados') 
 
