@@ -242,38 +242,21 @@ span{
 }
 
 /* Estilos de erro */
-.loginEmailErro input{
+.loginDadosErro input{
     border-bottom: solid 2px rgb(216, 0, 0);   
 }
 
-.loginEmailErro input:focus{
+.loginDadosErro input:focus{
     outline: 2px solid rgb(216, 0, 0);
     border-radius: 10px;
 }
 
-.loginEmailErro i{
+.loginDadosErro i{
     color: rgb(216, 0, 0);
 }
 
-.loginEmailErro span{
+.loginDadosErro span{
     display: block;
-}
-
-.loginSenhaERRO input{
-    border-bottom: solid 2px rgb(216, 0, 0);   
-}
-
-.loginSenhaERRO input:focus{
-    outline: 2px solid rgb(216, 0, 0);
-    border-radius: 10px;
-}
-
-.loginSenhaERRO i{
-    color: rgb(216, 0, 0);
-}
-
-.loginSenhaERRO span{
-    display: inline-block;
 }
 
 /* Responsivo */
