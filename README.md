@@ -79,7 +79,7 @@
 <div>
   <ul>
     <li>
-      <a href="https://willianol.github.io/Gamer-LoginPage/assets/index.html" target="_blank"> Empresa - LoginPage</a>
+      <a href="https://willianol.github.io/Login-page-empresa/assets/index.html" target="_blank"> Empresa - LoginPage</a>
     </li>
   </ul>
 </div>
