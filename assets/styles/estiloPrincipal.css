@@ -273,6 +273,7 @@ span{
 }
 
 @media (max-width: 620px){
+    /* Imagem lateral desaparece */
     .imgConteiner{
         display: none;
     }
